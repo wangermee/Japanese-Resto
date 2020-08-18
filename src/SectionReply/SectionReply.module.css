@@ -1,0 +1,28 @@
+.Reply{
+    text-align: center;    
+}
+.Reply img{
+    padding: 50px 0;
+}
+.Reply blockquote{
+    color: #9baf6d;
+    font-size: 20px;
+    max-width: 650px;
+    margin: auto;
+    padding: 0 5px;
+}
+.Reply blockquote h2{
+    padding: 30px 0;
+    font-family: 'Lemonada', cursive;
+}
+.Reply div{
+    color: #ffffff;
+}
+.Reply a img:hover{
+	transition-duration: 1s;
+    -webkit-transform:scale(1.1); /* Safari et Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* Internet Explorer 9 */
+    -o-transform:scale(1.1); /* Opera */
+    transform:scale(1.1);
+}

@@ -1,0 +1,32 @@
+.WhatWeCook{
+    background-color: rgba(69, 73, 59, 0.5);
+    display: flex;
+    justify-content: center;
+}
+.wrapperWeCook{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 70px 10px;
+}
+.WhatWeCook article{
+    padding: 20px;
+    max-width: 280px;
+}
+.WhatWeCook img{
+    width: 35px;
+}
+.WhatWeCook h2{
+    font-family: 'Lemonada', cursive;
+    color: #e8e8e8;
+    margin: 10px 0;
+}
+.WhatWeCook p{
+    color: #bebfbb;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+
+

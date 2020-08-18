@@ -1,0 +1,60 @@
+/* .Reply blockquote{
+    color: #9baf6d;
+    font-size: 20px;
+    max-width: 650px;
+    margin: auto;
+    padding: 0 5px;
+}
+.Reply blockquote h2{
+    padding: 30px 0;
+    font-family: 'Lemonada', cursive; */
+
+.Footer{
+    color: #e5e5e5;
+    background-color: rgba(69, 73, 59, 0.5);
+}
+.Footer .FooterFlex{
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.Footer h2{
+    text-align: center;/**/
+    padding: 50px 0 30px 5px;
+}
+.Footer p{
+    font-size: 20px;
+    max-width: 370px;
+    line-height: 30px;
+    padding: 0 5px;
+    text-align: justify;
+}
+.Footer ul{
+    padding-bottom: 50px;
+}
+.Footer ul li{
+    list-style: none;
+    padding: 0 5px 20px 5px;
+    text-align: center;/**/
+}
+.Footer ul li a{
+    font-size: 20px;
+    color: #e5e5e5;
+    text-decoration: none;
+}
+.Footer ul li a:hover{
+    text-decoration:underline;
+}
+
+
+@media screen and (min-width: 768px) {
+    .Footer .FooterFlex{
+        max-width: 900px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+

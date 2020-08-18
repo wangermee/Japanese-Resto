@@ -1,0 +1,24 @@
+.createMenu{
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.createMenu p:nth-child(1){
+    color: #9baf6d;
+    background-color: rgba(75, 82, 65, 0.9);
+    border: solid 2px #9baf6d;
+    border-radius: 3px;
+    padding: 20px 30px;
+    font-size: 40px;
+    cursor: pointer;
+    margin: 50px 0 50px 0;
+}
+.createMenu p:nth-child(1):hover{
+    background-color: rgba(75, 82, 65, 0.6);
+}
+
+
+
+
