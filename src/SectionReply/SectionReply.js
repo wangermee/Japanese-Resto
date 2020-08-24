@@ -12,9 +12,9 @@ export default function SectionReply (){
                 <h2>Linda Steward</h2>
             </blockquote>
             <div>
-                <a href="/"><img src="https://img.icons8.com/color/48/000000/facebook-new.png"/></a>
-                <a href="/"><img src="https://img.icons8.com/color/48/000000/twitter-circled.png"/></a>
-                <a href="/"><img src="https://img.icons8.com/color/48/000000/linkedin-circled.png"/></a>   
+                <a href="/"><img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="fb"/></a>
+                <a href="/"><img src="https://img.icons8.com/color/48/000000/twitter-circled.png" alt="twitter"/></a>
+                <a href="/"><img src="https://img.icons8.com/color/48/000000/linkedin-circled.png" alt="linkedin"/></a>   
             </div>
         </section>
     )

@@ -1,13 +1,11 @@
 .section {
-
     padding: 0 20px;
-    height: 500px;   
+    /* height: 500px;    */
 }
 .main{
     display: flex;
     align-items: flex-end;
-    flex-direction: column; 
-    
+    flex-direction: column;    
 }
 .main img{
     width: 120px;

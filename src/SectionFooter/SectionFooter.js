@@ -3,7 +3,7 @@ import classes from "./SectionFooter.module.css"
 
 export default function SectionFooter (){
     return(
-        <footer className={classes.Footer}>
+        <footer id="footer" className={classes.Footer}>
             <div className={classes.FooterFlex}>
                 <div>
                     <h2>ABOUT</h2>

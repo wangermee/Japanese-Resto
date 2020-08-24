@@ -13,7 +13,6 @@ import bkg3 from "./assets/img/bkgPara3.png"
 
 export default class App extends Component{
 
-
     render(){
         return(
             <>

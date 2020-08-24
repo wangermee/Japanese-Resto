@@ -4,7 +4,7 @@ import classes from "./KeepThings.module.css"
 
 export default function KeepThings (){
     return(
-        <section className={classes.KeepThings}>
+        <section id="events" className={classes.KeepThings}>
             <article>
                 <h2>We like to keep things simple</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>

@@ -5,7 +5,7 @@ import Action from "../Action/Action"
 
 export default class CreateMenu extends Component{
     state={
-        show:false
+        show:true
     }
 
     showFormCreationHandler = () =>{
@@ -18,7 +18,7 @@ export default class CreateMenu extends Component{
     
     render(){
         return(
-            <div className={classes.createMenu}>
+            <div id="menu" className={classes.createMenu} >
                 <Action clic={this.showFormCreationHandler} >Order your Menu</Action>
                 {this.state.show ? (<Menu />) : null}
             </div>
